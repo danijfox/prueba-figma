@@ -1,14 +1,15 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { CardComponent } from '../card/card.component';
 
 @Component({
   selector: 'app-examples',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, CardComponent],
   template: `
     <div class="examples-container">
       <div class="examples-grid">
-        <!-- Aquí irán los ejemplos de la página -->
+        <app-card></app-card>
       </div>
     </div>
   `,

@@ -12,8 +12,8 @@ import '@material/web/elevation/elevation.js';
       <md-elevation></md-elevation>
       <h2 class="card-title">{{ title }}</h2>
       <div class="card-actions">
-        <md-filled-button (click)="onAccept.emit()">Aceptar</md-filled-button>
-        <md-outlined-button (click)="onCancel.emit()">Cancelar</md-outlined-button>
+        <md-filled-button>Aceptar</md-filled-button>
+        <md-outlined-button>Cancelar</md-outlined-button>
       </div>
     </div>
   `,
@@ -46,6 +46,13 @@ import '@material/web/elevation/elevation.js';
     .card-actions {
       display: flex;
       gap: 12px;
+    }
+
+    md-filled-button,
+    md-outlined-button {
+      --md-filled-button-container-shape: 20px;
+      --md-outlined-button-container-shape: 20px;
+      min-width: 100px;
     }
   `]
 })
