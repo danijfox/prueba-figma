@@ -1,32 +1,37 @@
-# Prueba Figma
+# Ejemplos de Diseño Figma
 
-Este repositorio contiene una prueba de concepto de integración con Figma, demostrando la capacidad de crear y manipular elementos de diseño programáticamente.
+Este proyecto es una implementación en Angular de los diseños creados en Figma. Utiliza Material Design 3 a través de la librería `@material/web` para mantener la fidelidad visual y la consistencia con el sistema de diseño.
 
-## 🎨 Características
+## Características
 
-- Creación de componentes básicos (cards, botones)
-- Manipulación de estilos y propiedades
-- Integración con Design System
+- Implementación fiel de los diseños de Figma
+- Uso de Material Design 3
+- Componentes reutilizables
+- Diseño responsive
+- Sistema de tokens de diseño
 
-## 🚀 Elementos Implementados
+## Tecnologías
 
-### Card
-- Frame principal con estilos del DS
-- Título personalizable
-- Sistema de botones:
-  - Botón primario (acción principal)
-  - Botón secundario (acción alternativa)
+- Angular 17
+- Material Web Components
+- CSS Grid y Flexbox
+- TypeScript
 
-## 🛠️ Tecnologías Utilizadas
+## Desarrollo
 
-- Figma API
-- Design System
-- GitHub
+1. Instalar dependencias:
+```bash
+npm install
+```
 
-## 📝 Notas
+2. Iniciar servidor de desarrollo:
+```bash
+ng serve
+```
 
-Este es un proyecto de prueba para demostrar la integración entre diferentes herramientas de desarrollo y diseño.
+3. Navegar a `http://localhost:4200`
 
-## 👥 Contribución
+## Estructura
 
-Las contribuciones son bienvenidas. Por favor, abre un issue primero para discutir los cambios que te gustaría realizar.
+- `/src/app/components`: Componentes de la aplicación
+- `/src/styles.css`: Estilos globales y tokens de diseño
