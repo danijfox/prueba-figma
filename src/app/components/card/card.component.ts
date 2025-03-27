@@ -20,7 +20,7 @@ import '@material/web/elevation/elevation.js';
   styles: [`
     .card {
       position: relative;
-      background: var(--md-sys-color-surface);
+      background: var(--md-sys-color-surface, #fff);
       border-radius: 16px;
       padding: 24px;
       width: 320px;
@@ -28,6 +28,7 @@ import '@material/web/elevation/elevation.js';
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      margin: 24px auto;
     }
 
     md-elevation {
@@ -35,12 +36,12 @@ import '@material/web/elevation/elevation.js';
     }
 
     .card-title {
-      font-family: var(--md-sys-typescale-headline-small-font);
-      font-size: var(--md-sys-typescale-headline-small-size);
-      font-weight: var(--md-sys-typescale-headline-small-weight);
-      line-height: var(--md-sys-typescale-headline-small-line-height);
+      font-family: var(--md-sys-typescale-headline-small-font, Roboto);
+      font-size: var(--md-sys-typescale-headline-small-size, 20px);
+      font-weight: var(--md-sys-typescale-headline-small-weight, 600);
+      line-height: var(--md-sys-typescale-headline-small-line-height, 1.5);
       margin: 0;
-      color: var(--md-sys-color-on-surface);
+      color: var(--md-sys-color-on-surface, #1f1f1f);
     }
 
     .card-actions {

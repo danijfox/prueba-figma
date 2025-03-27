@@ -1,22 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 :root {
-  --md-sys-color-primary: #4285F4;
+  --md-sys-color-primary: #1976D2;
   --md-sys-color-on-primary: #FFFFFF;
-  --md-sys-color-primary-container: #E8F0FE;
-  --md-sys-color-on-primary-container: #1A73E8;
   --md-sys-color-surface: #FFFFFF;
   --md-sys-color-on-surface: #1F1F1F;
-  --md-sys-color-surface-variant: #F8F9FA;
-  --md-sys-color-outline: #DADCE0;
+  --md-sys-color-background: #F5F5F5;
   
-  --md-sys-typescale-body-large-size: 16px;
-  --md-sys-typescale-body-large-weight: 400;
-  --md-sys-typescale-body-large-line-height: 24px;
-  
-  --md-sys-typescale-label-large-size: 14px;
-  --md-sys-typescale-label-large-weight: 500;
-  --md-sys-typescale-label-large-line-height: 20px;
+  --md-sys-typescale-headline-small-font: 'Roboto', sans-serif;
+  --md-sys-typescale-headline-small-size: 20px;
+  --md-sys-typescale-headline-small-weight: 600;
+  --md-sys-typescale-headline-small-line-height: 1.5;
 }
 
 html, body {
